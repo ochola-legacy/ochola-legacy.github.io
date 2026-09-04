@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ochola Legacy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#top" class="brand">
+        <img src="assets/logo.jpg" alt="Ochola Legacy crest" class="brand-mark">
+        <span class="brand-name">Ochola Legacy</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#story">Our Story</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#give" class="nav-cta">Give</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <img src="assets/logo.jpg" alt="Ochola Legacy crest" class="hero-crest">
+      <h1>Ochola Legacy</h1>
+      <p class="hero-rule"></p>
+      <p class="hero-motto">A good deed goes a long way.</p>
+      <p class="hero-sub">The official trust of the Ochola family grandchildren, carrying forward a
+        tradition of community service and outreach.</p>
+    </div>
+  </section>
+
+  <!-- ============ OUR STORY ============ -->
+  <section class="story" id="story">
+    <div class="wrap story-inner">
+      <div class="story-text">
+        <h2>Our Story</h2>
+        <p>The Ochola family has positively impacted many lives throughout its dynasty &mdash;
+          from education support to medical care assistance and financial support. Across
+          generations, the family has held to one compassionate approach: showing up for the
+          community and outreaching in society.</p>
+        <p>As heirs to this work, the Ochola grandchildren carry the legacy forward through our
+          own generation, creating more avenues to support families and communities in need.
+          It is the same spirit our loving grandmother instilled in all of us, kept alive in
+          our hands.</p>
+      </div>
+      <!--
+        EDIT HERE: swap this placeholder for a real family photo.
+        1. Drop your photo file into the assets/ folder, e.g. assets/family-photo.jpg
+        2. Change the src below to match, e.g. src="assets/family-photo.jpg"
+      -->
+      <div class="story-photo">
+        <img src="assets/gallery-02.jpg" alt="Ochola family portrait">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AREAS OF FOCUS ============ -->
+  <section class="focus">
+    <div class="wrap">
+      <h2>Where We Show Up</h2>
+      <div class="focus-list">
+        <div class="focus-item">
+          <h3>Education</h3>
+          <p>Supporting school fees, supplies, and opportunities for young people to learn.</p>
+        </div>
+        <div class="focus-item">
+          <h3>Medical Care</h3>
+          <p>Helping families reach and afford the care they need, when they need it.</p>
+        </div>
+        <div class="focus-item">
+          <h3>Financial Support</h3>
+          <p>Standing behind families and community members through direct assistance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LEADERSHIP ============ -->
+  <section class="leadership" id="leadership">
+    <div class="wrap">
+      <h2>Leadership</h2>
+      <p class="section-lede">Ochola Legacy is led by the family's grandchildren.</p>
+      <div class="leader-grid">
+        <div class="leader"><h3>Lesley Venesa</h3><p>Chairperson</p></div>
+        <div class="leader"><h3>Hope Victor</h3><p>Assistant Chairperson</p></div>
+        <div class="leader"><h3>Purity Okova</h3><p>Treasurer</p></div>
+        <div class="leader"><h3>Albert Okova</h3><p>Secretary</p></div>
+        <div class="leader"><h3>Sheryl Devoter</h3><p>Grandkids Representative</p></div>
+        <div class="leader"><h3>Sheldon Joe</h3><p>Communications Director</p></div>
+        <div class="leader"><h3>Levine Victrine</h3><p>Events Coordinator</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery" id="gallery">
+    <div class="wrap">
+      <h2>Gallery</h2>
+      <p class="section-lede">Moments from the family and our outreach work.</p>
+      <!--
+        EDIT HERE: this is a slideshow. To add a photo:
+        1. Put the image file in assets/, e.g. assets/photo-01.jpg
+        2. Copy one <div class="slide">...</div> block inside #slideshow-track and update the src.
+        3. Copy one <button class="dot">...</button> inside #slideshow-dots to match (any label is fine).
+        Add or remove slide + dot pairs together — the counter updates itself.
+      -->
+      <div class="slideshow" id="gallery-slideshow">
+        <div class="slideshow-track" id="slideshow-track">
+          <div class="slide"><img src="assets/gallery-01.jpg" alt="Ochola family photo"></div>
+          <div class="slide"><img src="assets/gallery-02.jpg" alt="Ochola family photo"></div>
+          <div class="slide"><img src="assets/gallery-03.jpg" alt="Ochola family photo"></div>
+          <div class="slide"><img src="assets/gallery-04.jpg" alt="Ochola family photo"></div>
+          <div class="slide"><img src="assets/gallery-05.jpg" alt="Ochola family photo"></div>
+          <div class="slide"><img src="assets/gallery-06.jpg" alt="Ochola family photo"></div>
+          <div class="slide"><img src="assets/gallery-07.jpg" alt="Ochola family photo"></div>
+          <div class="slide"><img src="assets/gallery-08.jpg" alt="Ochola family photo"></div>
+          <div class="slide"><img src="assets/gallery-09.jpg" alt="Ochola family photo"></div>
+          <div class="slide"><img src="assets/gallery-10.jpg" alt="Ochola family photo"></div>
+          <div class="slide"><img src="assets/gallery-11.jpg" alt="Ochola family photo"></div>
+        </div>
+        <button class="slide-btn slide-prev" id="slide-prev" aria-label="Previous photo">&#8249;</button>
+        <button class="slide-btn slide-next" id="slide-next" aria-label="Next photo">&#8250;</button>
+        <div class="slide-dots" id="slideshow-dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    (function () {
+      const track = document.getElementById('slideshow-track');
+      const slides = track.children;
+      const dotsWrap = document.getElementById('slideshow-dots');
+      const prevBtn = document.getElementById('slide-prev');
+      const nextBtn = document.getElementById('slide-next');
+      let index = 0;
+
+      // Build one dot per slide
+      for (let i = 0; i < slides.length; i++) {
+        const dot = document.createElement('button');
+        dot.className = 'dot';
+        dot.setAttribute('aria-label', 'Go to photo ' + (i + 1));
+        dot.addEventListener('click', () => goTo(i));
+        dotsWrap.appendChild(dot);
+      }
+
+      function goTo(i) {
+        index = (i + slides.length) % slides.length;
+        track.style.transform = 'translateX(-' + (index * 100) + '%)';
+        const dots = dotsWrap.children;
+        for (let d = 0; d < dots.length; d++) {
+          dots[d].classList.toggle('active', d === index);
+        }
+      }
+
+      prevBtn.addEventListener('click', () => goTo(index - 1));
+      nextBtn.addEventListener('click', () => goTo(index + 1));
+      goTo(0);
+
+      // Auto-advance every 5 seconds, pausing while the user hovers
+      let timer = setInterval(() => goTo(index + 1), 5000);
+      const wrap = document.getElementById('gallery-slideshow');
+      wrap.addEventListener('mouseenter', () => clearInterval(timer));
+      wrap.addEventListener('mouseleave', () => { timer = setInterval(() => goTo(index + 1), 5000); });
+    })();
+  </script>
+
+  <!-- (script placed here so the slideshow elements above already exist on the page) -->
+
+  <!-- ============ GIVE / CONTRIBUTE ============ -->
+  <section class="give" id="give">
+    <div class="wrap give-inner">
+      <h2>Get Involved</h2>
+      <p>Thank you for your continued support and dedication in aligning to our goals and
+        efforts in bringing up a generation that empowers generations.</p>
+      <p>Any contribution towards the causes supported by the family is greatly appreciated
+        and can be forwarded to the official family trust account.</p>
+      <!--
+        EDIT HERE: fill in the real trust account / payment details below.
+        Just replace the [ ... ] placeholder text on each line — leave the
+        rest of the markup as it is. Delete any <p> line you don't need
+        (e.g. if you only have M-Pesa and no bank account).
+      -->
+      <div class="give-details">
+        <p><span>Bank</span>[ Bank name ]</p>
+        <p><span>Account Name</span>[ Account name ]</p>
+        <p><span>Account Number</span>[ Account number ]</p>
+        <p><span>M-Pesa Paybill</span>[ Paybill number ]</p>
+        <p><span>Account Reference</span>[ e.g. your name ]</p>
+      </div>
+      <p class="give-contact">
+        Follow us on <a href="https://www.instagram.com/theocholalegacy" target="_blank" rel="noopener">Instagram</a>
+        or email <a href="mailto:ocholalegacygroup@gmail.com">ocholalegacygroup@gmail.com</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <img src="assets/logo.jpg" alt="Ochola Legacy crest" class="footer-crest">
+      <p>Ochola Legacy &mdash; A good deed goes a long way.</p>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/theocholalegacy" target="_blank" rel="noopener">Instagram</a>
+        <span class="footer-dot">&middot;</span>
+        <a href="mailto:ocholalegacygroup@gmail.com">ocholalegacygroup@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
